@@ -1,0 +1,186 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.full-width-image-1 {
+	margin-top: 15px;
+	background-image: url(../images/landing-photo.jpeg);
+	/*image url: https://source.unsplash.com/u4EbGBDRUws */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 644px;
+	border-radius: 5px;
+} 
+img {
+	border-radius: 5px;
+}
+
+.bar-name { 
+	font-size: 15px;
+	letter-spacing: 5px;
+}
+span {
+	text-transform: uppercase;
+	font-size: 24px;
+}
+h3 {
+	font-size: 1.9em;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+.menu-item {
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+/* class for adding shadow on menu items on hover in JS */
+.silverShadow {
+	text-shadow: 0 1px silver;
+}
+
+/* Appetizers section */
+.appetizers h3 {
+	padding-bottom: 16px;
+	padding-top: 25px;
+}
+.appetizers>div>p {
+	margin: 3px;
+}
+.appetizers>div>p:not(.menu-item) {
+	font-size: 0.9em;
+	line-height: 1.1;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+/* Burgers section */
+.burgers h3 {
+	padding-top: 27px;
+	padding-bottom: 22px;
+}
+
+.burgers>div>p {
+	margin: 3px;
+}
+.burgers>div>p:not(.menu-item) {
+	font-size: 0.9em;
+	line-height: 1.1;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+/* Platters section */
+.platters h3 {
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.platters>div>p {
+	margin: 3px;
+}
+.platters>div>p:not(.menu-item) {
+	font-size: 0.9em;
+	line-height: 1.1;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+/* Bar section */
+.bar h3 {
+	padding-bottom: 15px;
+}
+
+.bar>div>p {
+	margin: 3px;
+}
+.bar>div>p:not(.menu-item) {
+	font-size: 0.9em;
+	line-height: 1.1;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+/* Contact section */
+#contact {
+	margin-top: 30px;
+}
+
+.working-hours {
+	margin-top: 30px;
+}
+.working-hours p:nth-child(2) {
+	padding-left: 2px;
+}
+.working-hours p:last-child {
+	padding-left: 58px;
+}
+.address {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+@media only screen and (max-width: 400px) {
+	.address {
+		padding-top: 20px;
+	}
+}
+.social-icons {
+	margin-top: 15px;
+	padding-bottom: 22px;
+}
+.social-icons i {
+	margin: 20px;
+}
+.fa-facebook-square {
+	color: #3b5998;
+}
+.fa-facebook-square:hover {
+	color: gray;
+	cursor: pointer;
+}
+.fa-instagram {
+	color: #e95950;
+}
+.fa-instagram:hover {
+	color: gray;
+	cursor: pointer;
+}
+.fa-yelp {
+	color: #af0606;
+}
+.fa-yelp:hover {
+	color: gray;
+	cursor: pointer;
+}
+.fa-tripadvisor {
+	color: #00af87;
+}
+.fa-tripadvisor:hover {
+	color: gray;
+	cursor: pointer;
+}
+
+/* Footer */
+#footer {
+	line-height: normal;
+	padding-bottom: 5px;
+}
+#footer p {
+	font-size: 10px;
+}
+.heart {
+	color: #F20000;
+	font-size: 10px;
+}
+#footer a {
+	text-decoration: underline;
+	color: black;
+}
+#footer a:hover {
+	color: #F20000;
+}
