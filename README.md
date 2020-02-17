@@ -2,4 +2,9 @@
 
 Restaurant website as part of #30Days30Sites challenge.
 
-Visit it at: https://milosrancic.github.io/restaurant-website/
+## View project
+https://milosrancic.github.io/restaurant-website/
+
+### Screenshot
+
+[![Restaurant.png](https://i.postimg.cc/BQQy1zYR/Restaurant.png)](https://postimg.cc/PN9KgSkM)
